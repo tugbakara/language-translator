@@ -1,0 +1,38 @@
+{
+    "paths": {
+      "backgrounds": "bg",
+      "assets": "assets",
+      "fonts": "fonts"
+    },
+    "assets": {
+      "mic_icon": "assets/mic.png",
+      "copy_icon": "assets/copy.png"
+    },
+    "fonts": {
+      "century_gothic": {
+        "regular": "fonts/CenturyGothic/centurygothic.ttf",
+        "bold": "fonts/CenturyGothic/centurygothic_bold.ttf"
+      }
+    },
+    "app": {
+      "title": "Language Translator",
+      "host": "127.0.0.1",
+      "port": 8050,
+      "debug": false,
+      "max_char_limit": 5000,
+      "max_background_images": 8,
+      "background_animation_duration": 4
+    },
+    "cache": {
+      "file_encoding_size": 50,
+      "translator_size": 1,
+      "background_images_size": 1
+    },
+    "ui": {
+      "default_source_lang": "en",
+      "default_target_lang": "tr",
+      "textarea_rows": 6,
+      "icon_button_size": 35,
+      "icon_size": 18
+    }
+  }

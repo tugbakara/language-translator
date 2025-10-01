@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    transition: background-image 2s ease-in-out !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.custom-textarea {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #e3f2fd;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+
+.custom-textarea:focus {
+    border-color: #4fc3f7;
+    box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.1);
+    outline: none;
+}
+
+.action-button {
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.translate-btn {
+    background: linear-gradient(135deg, #4fc3f7, #29b6f6);
+    color: white;
+}
+
+.translate-btn:hover {
+    background: linear-gradient(135deg, #29b6f6, #0288d1);
+    transform: translateY(-2px);
+}
+
+.clear-btn {
+    background: linear-gradient(135deg, #ff7043, #ff5722);
+    color: white;
+    margin-left: 15px;
+}
+
+.clear-btn:hover {
+    background: linear-gradient(135deg, #ff5722, #e64a19);
+    transform: translateY(-2px);
+}
+
+.char-counter {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.icon-button-iframe {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 90px;
+    height: 45px;
+    border: none;
+    pointer-events: auto;
+    z-index: 100;
+}
+
+.Select-control {
+    border-radius: 8px;
+    border: 2px solid #e3f2fd;
+    font-family: 'Century Gothic', sans-serif !important;
+}
+
+p, span, div, label, input, select, option {
+    font-family: 'Century Gothic', sans-serif !important;
+}
+
+.dash-dropdown .Select-value-label,
+.dash-dropdown .Select-placeholder,
+.dash-dropdown .Select-menu-outer,
+.dash-dropdown .Select-option {
+    font-family: 'Century Gothic', sans-serif !important;
+}
+
+.form-check-label {
+    font-family: 'Century Gothic', sans-serif !important;
+}
+
+._dash-loading {
+    background: transparent !important;
+}
+
+.dash-spinner {
+    color: #4fc3f7;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .action-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+    
+    .clear-btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.form-check-input:checked {
+    background-color: #4fc3f7;
+    border-color: #4fc3f7;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+h5 {
+    color: #34495e;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
