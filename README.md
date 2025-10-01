@@ -2,12 +2,14 @@
 
 A web-based language translation application built with Python Dash framework. The application provides text translation between 80+ languages using Google Translate API, with text-to-speech and clipboard copy functionality.
 
-## 📋 Prerequisites
+<img width="1851" height="932" alt="Screenshot from 2025-10-01 15-07-05" src="https://github.com/user-attachments/assets/71ee9509-51aa-4ecc-bcf6-741e3bcd6974" />
+
+## Prerequisites
 
 - Python 3.7 or higher
 - Internet connection (required for translation service)
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -46,7 +48,7 @@ language-translator/
     └── ...
 ```
 
-## 🏃 Running the Application
+## Running the Application
 
 1. **Start the server**
 ```bash
@@ -67,14 +69,14 @@ http://127.0.0.1:8050
    - Use copy icon to copy text to clipboard
    - Click "Clear all" to reset both fields
 
-## 📦 Dependencies
+## Dependencies
 
 - `dash>=2.0.0` - Web application framework
 - `dash-bootstrap-components>=1.0.0` - Bootstrap components for Dash
 - `googletrans==4.0.0rc1` - Translation service (Google Translate API)
 - `flask>=2.0.0` - Web server (included with Dash)
 
-## 🎨 Customization
+## Customization
 
 ### Background Images
 
@@ -112,7 +114,7 @@ Replace default icons in the `assets` folder:
 
 Recommended format: PNG with transparent background, 18x18 pixels.
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Architecture
 
@@ -127,7 +129,7 @@ The application consists of four main components:
 4. **config.json**: Centralized configuration for paths, application settings, UI parameters, and cache sizes.
 
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Translation Service Unavailable
 **Error**: "Translation library (googletrans) is not installed"  
@@ -146,7 +148,7 @@ The application consists of four main components:
 - Check file permissions
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome. Please submit pull requests with clear descriptions of changes.
 
